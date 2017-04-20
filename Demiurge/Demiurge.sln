@@ -3,8 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{AC2FD620-662D-428F-86EA-BB04226C0D26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demiurge.OSGi", "SolutionItems\Demiurge.OSGi\Demiurge.OSGi.csproj", "{9A49B9F9-284D-4F66-A47E-36041B2A6807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demiurge.Framework", "SolutionItems\Demiurge.Framework\Demiurge.Framework.csproj", "{3B320F76-99F9-4B74-9EAD-0AB6A848D5D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{677EBF38-ACE0-4F00-B032-42ADF3D943E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EF76C0E8-7946-45BB-939D-83CCEFCFAFAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{CA5FFF22-0034-47F4-BC6E-5BB5CE28AB20}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A49B9F9-284D-4F66-A47E-36041B2A6807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A49B9F9-284D-4F66-A47E-36041B2A6807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A49B9F9-284D-4F66-A47E-36041B2A6807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A49B9F9-284D-4F66-A47E-36041B2A6807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B320F76-99F9-4B74-9EAD-0AB6A848D5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B320F76-99F9-4B74-9EAD-0AB6A848D5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B320F76-99F9-4B74-9EAD-0AB6A848D5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B320F76-99F9-4B74-9EAD-0AB6A848D5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A49B9F9-284D-4F66-A47E-36041B2A6807} = {EF76C0E8-7946-45BB-939D-83CCEFCFAFAD}
+		{3B320F76-99F9-4B74-9EAD-0AB6A848D5D5} = {677EBF38-ACE0-4F00-B032-42ADF3D943E1}
+		{677EBF38-ACE0-4F00-B032-42ADF3D943E1} = {AC2FD620-662D-428F-86EA-BB04226C0D26}
+		{EF76C0E8-7946-45BB-939D-83CCEFCFAFAD} = {AC2FD620-662D-428F-86EA-BB04226C0D26}
+		{CA5FFF22-0034-47F4-BC6E-5BB5CE28AB20} = {AC2FD620-662D-428F-86EA-BB04226C0D26}
 	EndGlobalSection
 EndGlobal
